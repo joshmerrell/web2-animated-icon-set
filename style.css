@@ -1,7 +1,7 @@
 /* Diagnostic Styling */
-* {
+/* * {
   outline: 2px dotted gray;
-} 
+}  */
 
 /* temp background color */
 body {
@@ -20,16 +20,37 @@ main {
   display: flex;
 }
 
-/* cptionally changef */
-main section {
-  height: 100px;
-  width: 100px;
+.lucide {
+  scale: 6;
+  transform-origin: center;
+}
+.lucide-atom {
+  transform: translate(-20px,0px);
+}
+.lucide-drum {
+  transform: translate(-50px,0px);
+}
+.lucide-audio-lines {
+  transform: translate(20px, 0px);
+}
+.lucide-soup {
+  transform: translate(40px, 0px);
 }
 
-/* scale SVG to fit container */
-svg {
-  width: 100%; /* or any specific size */
-  height: auto;
-  /* Center and fit */
-  preserveAspectRatio: xMidYMid meet;
+.nucleus {
+  fill: purple;
+  stroke: purple;
+}
+
+.drumstick {
+  stroke: #b18557;
+}
+
+.flagpart {
+  transform-origin: center;
+  fill: red;
+}
+
+.steam {
+  stroke: grey;
 }
